@@ -2,7 +2,16 @@
   "expo": {
     "name": "Skin-Detection-App",
     "slug": "Skin-Detection-App",
-    "version": "1.0.0"
-  },
-  "name": "Skin-Detection-App"
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ]
+  }
 }

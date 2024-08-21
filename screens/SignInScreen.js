@@ -41,9 +41,9 @@ const SignInScreen = ({ navigation }) => {
     
 
     return (
-        <ImageBackground source={require('../assets/skin.jpg')} style={styles.container}>
+        <ImageBackground source={require('../assets/skins.jpg')} style={styles.container}>
             <View style={styles.titleContainer}>
-             <Text style={styles.appName}>Cash Track</Text>
+             <Text style={styles.appName}>Skin Disease Detector</Text>
             </View>
             <TextInput style={styles.input} placeholder="Email" value={email} onChangeText={setEmail} keyboardType='email-address' autoCapitalize='none' />
             <TextInput style={styles.input} placeholder="Password" value={password} onChangeText={setPassword} secureTextEntry />

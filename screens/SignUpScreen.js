@@ -42,7 +42,7 @@ const SignUpScreen = ({navigation}) => {
     };
 
     return (
-        <ImageBackground source={require('../assets/skin.jpg')} style={styles.container}>
+        <ImageBackground source={require('../assets/skins.jpg')} style={styles.container}>
             <View style={styles.titleContainer}>
                  <Text style={styles.titleContainerText}>CREATE ACCOUNT</Text>
             </View>
